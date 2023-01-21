@@ -1,0 +1,69 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: start;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  nav a.router-link-exact-active {
+    color: #42b983;
+  }
+.container{
+    margin:auto 2.3rem;
+}
+.container h1{
+    text-align: center;
+}
+.container__creators{
+margin: 2rem auto;
+}
+.container__openning{
+    color: rgb(129, 129, 129);
+}
+section{
+    margin:2.3rem auto;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
